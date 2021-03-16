@@ -1,0 +1,306 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+body {
+	overflow-x: hidden;
+	font-family: 'Lato', sans-serif;
+	color: #505962;
+}
+
+.offset:before {
+	display: block;
+	content: "";
+	height: 4rem;
+	margin-top: -4rem;
+}
+
+/* ---- Navigation ---- */
+.navbar {
+	font-weight: 700;
+	font-size: .9rem;
+	padding: 1rem;
+
+}
+
+.navbar.bg-dark {
+	background-color: rgba(0, 0, 0, 0.6) !important;
+}
+
+.navbar-brand {
+	margin-left: 15vw;
+}
+
+.collapse {
+	margin-right: 10vw;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+	color: rgba(255, 255, 255);
+	padding-top: .8rem;
+}
+
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover {
+	color: rgb(243, 83, 55) !important;
+}
+
+/* ==== Landing page ==== */
+.home-inner {
+	background-image: url(image/computers.png);
+}
+
+.caption {
+	width: 100%;
+	max-width: 100%;
+	position: absolute;
+	top: 25%;
+	color: white;
+	z-index: 1;
+	text-transform: uppercase;
+}
+
+.caption h1 {
+	font-size: 2.5rem;
+	font-weight: 700;
+	letter-spacing: .1rem;
+	text-shadow: .1rem .1rem .8rem black;
+	padding-bottom: 2rem;
+}
+
+.heading-underline {
+	width: 3rem;
+	height: .2rem;
+	background-color: rgb(243, 83, 55);
+	margin: 0 auto 2rem;
+}
+
+.caption p {
+	color: rgba(255, 255, 255, 0.849);
+	font-size: .8rem;
+	padding-bottom: 2rem;
+	line-height: 1.2rem;
+}
+
+.caption .btn {
+	border-width: medium;
+	border-radius: 5rem !important;
+	padding: .4rem 1rem;
+	margin: 1rem;
+	color: white;
+	background-color: rgb(243, 83, 55);
+	border-color: rgb(243, 83, 55);
+}
+
+.caption .btn:hover {
+	background-color: rgb(252, 38, 0);
+	border-color: rgb(252, 38, 0);
+	color: white;
+
+}
+
+/* ===== About Section start here ===== */
+#about>.narrow {
+	width: 100%;
+	background-color: rgb(243, 83, 55);
+	color: white;
+}
+
+#about>.narrow h3 {
+	font-size: 2rem;
+	margin: 1rem 0;
+}
+
+.underline1 {
+	width: 3rem;
+	height: .2rem;
+	background-color: white;
+	margin: 0 auto 1rem;
+}
+
+.col-12 .btn-primary {
+	border-width: medium;
+	background-color: #fff;
+	color: black;
+	border-radius: 5rem;
+	border: none;
+	margin: 1rem 0 2rem;
+}
+
+.col-12 .btn-primary:hover {
+	background-color: rgb(252, 38, 0);
+	border-color: rgb(252, 38, 0);
+	color: white;
+
+}
+
+/* ==== Service Section Start here ==== */
+
+#service {
+	padding: 0 6rem;
+}
+
+.col-12 h4 {
+	margin: 1rem 0 1.5rem;
+	font-size: 1.5rem;
+}
+
+.underline3 {
+	width: 3rem;
+	height: .2rem;
+	background-color: rgb(243, 83, 55);
+	margin: 1rem auto;
+}
+
+.feature svg.svg-inline--fa {
+	color: rgb(243, 83, 55);
+
+}
+
+.feature h4 {
+	margin: 1rem 0;
+}
+
+.feature p {
+	margin-bottom: 4rem;
+}
+
+/* ---- Portfolio Section Start here --- */
+
+img {
+	width: 100%;
+	max-width: 100%;
+	height: 40vh;
+
+}
+
+img:hover {
+	opacity: 0.6;
+}
+
+.col-md-4.padding0 {
+	margin: 0;
+	padding: 0;
+}
+
+/* ---- Portfolio bottom Section Start here ---- */
+
+.narrow .bottom {
+	color: white;
+	background-color: rgb(27, 26, 26);
+	width: 100%;
+	max-width: 100%;
+}
+
+.bottom h3 {
+	padding: 5rem 0 1rem;
+	font-size: 2rem;
+}
+
+.bottom .btn {
+	border-radius: 6rem;
+	margin-bottom: 5rem;
+	background-color: white;
+	color: black;
+	font-size: 1rem;
+	border: none;
+	font-weight: 500;
+}
+
+/* ==== footer section start here ==== */
+footer h2 {
+	margin: 5rem 0 1rem;
+}
+
+.underline4 {
+	width: 3rem;
+	height: .2rem;
+	background-color: rgb(243, 83, 55);
+	margin: 1rem auto;
+}
+
+footer svg.svg-inline--fa:hover {
+	color: rgb(243, 83, 55);
+}
+
+.col-md-6 {
+	margin-bottom: 9rem;
+}
+
+hr.socket {
+	width: 100%;
+	border-top: .2rem solid #666b71;
+	margin-top: 1rem;
+}
+
+.hr {
+	color: black;
+	font-size: 1rem;
+	padding-bottom: .5rem;
+	font-family: monospace;
+}
+
+
+/* ===== Media query ====== */
+
+@media (max-width: 400px) {
+	.caption {
+		position: absolute;
+		top: 10%;
+	}
+
+	.caption h1 {
+		font-size: 2rem;
+		padding-bottom: .7rem;
+	}
+
+	.caption p {
+		padding-bottom: .8rem;
+		font-size: .7rem;
+	}
+
+	.heading-underline {
+
+		margin: 0 auto 1rem;
+	}
+
+	.caption .btn {
+
+		margin: 0;
+		font-size: .8rem;
+
+	}
+}
+
+@media (min-width: 992px) {
+
+
+	div.col-md-6.phone {
+		position: relative;
+		padding-left: 20%;
+	}
+
+	div.col-md-6.envelope {
+		position: relative;
+
+		padding-right: 20%;
+	}
+}
+
+
+
+
+/*=========== BOOTSTRAP BREAK POINTS:
+
+Extra small (xs) device (portrait phones, less than 576)
+no media query since this is the default in Bootstrap
+
+small (sm) devices (landscape phone, 576px and up)
+@media (min-width: 768px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) divices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Etra (xl) large device (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
